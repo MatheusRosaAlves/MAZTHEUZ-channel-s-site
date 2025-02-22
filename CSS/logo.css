@@ -52,3 +52,30 @@ border: 0;
 
     
 }
+
+p{
+    color:aliceblue;
+
+
+}
+
+h2{
+    color: white;
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.sobre_nos{
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+.imagemsobrenos{
+    width: 10%;
+}
