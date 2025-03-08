@@ -1,15 +1,17 @@
 /*estilização do body da pagina*/
-body{
+body {
     margin: 0;
     border: 0;
     font-family: 'poppins' 'Arial';
+    background-color: #000000;
 }
 
 
 
 
+
 /* ESTIZAÇÃO DO HEADER DA PAGINA!*/
-Header{
+Header {
     background-color: #000000;
     /*padding: 70px ;*/
 
@@ -18,10 +20,11 @@ Header{
 
 
 
-.logo{
-width: 25%;
+.logo {
+    width: 25%;
 
 }
+
 /*estilização do menu*/
 nav {
     color: white;
@@ -29,10 +32,10 @@ nav {
     right: 352;
     top: 50px;
     position: absolute;
-   
+
 }
 
-nav li{
+nav li {
     display: inline;
     margin-right: 20px;
 
@@ -44,31 +47,26 @@ nav li{
 
 }
 
-.banner{
+.banner {
 
-width: 100%;
-margin: 0;
-border: 0;
-
-    
-}
-
-p{
-    color:aliceblue;
-
-
-}
-
-h2{
-    color: white;
+    width: 100%;
     margin: 0;
-    text-align: justify;
-    width: 60%;
-    margin-left: 20%;
-    
+    border: 0;
+
+
 }
 
-.sobre_nos{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: aliceblue;
+}
+
+h2 {
     margin: 0;
     text-align: justify;
     width: 60%;
@@ -76,6 +74,28 @@ h2{
 
 }
 
-.imagemsobrenos{
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+.imagemsobrenos {
     width: 10%;
+}
+
+.videos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.videoegif {
+
+    display: flex;
+
 }
