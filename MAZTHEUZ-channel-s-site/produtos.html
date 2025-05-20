@@ -4,20 +4,25 @@
 
 <script>
  alert("Conheça MINHA linha de produtos");
-
- data=new Date
- document.write()
-
 </script>
 
-<link rel="stylesheet" href="CSS/logo.css" rel="stylesheet" />
-<link rel="stylesheet" href="CSS/estilos_produtos.css" rel="stylesheet" />
+<link rel="stylesheet" href="CSS/logo.css" />
+<link rel="stylesheet" href="CSS/estilos_produtos.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rammetto+One&display=swap" rel="stylesheet">
+
+<style>
+  .produtoslocal {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .produtoslocal:hover {
+    transform: scale(1.05);
+  }
+</style>
 
 <head>
   <div class="divHeader">
@@ -28,93 +33,121 @@
         </a>
       </div>
       <ul>
-        <li>
-          <a href="index.html"> Home |</a>
-        </li>
+        <li><a href="index.html"> Home |</a></li>
         <li>Produtos |</li>
         <li>Contatos</li>
       </ul>
     </nav>
 
     <div class="inicio">
-<h1 class="textoprodutos"> CAMISETAS DO CANAL! SÃO DE OTIMA QUALIDADE! FABRICADAS TODAS NA CHINA! PELAS MELHORES CRIANÇAS! </h1>
-      
+      <h1 class="textoprodutos"> CAMISETAS DO CANAL! SÃO DE OTIMA QUALIDADE! FABRICADAS TODAS NA CHINA! PELAS MELHORES CRIANÇAS! </h1>
     </div>
 </head>
-
 
 <body>
 
   <main class="coisinhas">
 
-<div class="coisinhas-content">
-  <div class="produtoslocal">
-    <img src="imagens/camisaspng/baldia.png" alt="">
-    <h1>Camisa Baldiação Games</h1>
-    <p>Mostre que você é um grande fã do melhor canal de games do Brasil! </p>
-  </div>
+    <div class="coisinhas-content">
+      <div class="produtoslocal" onclick="mostrarPopup('Camisa Baldiação Games', 'Esta é a camisa do baldiçao: 100R$', 'imagens/camisaspng/baldia.png')">
+        <img src="imagens/camisaspng/baldia.png" alt="">
+        <h1 class="tituloprodutos">Camisa Baldiação Games</h1>
+        <p class="descprodutos">Mostre que você é um grande fã do melhor canal de games do Brasil!</p>
+      </div>
 
-  <div class="produtoslocal">
-    <img src="imagens/camisaspng/maz.png" alt="">
-    <h1>Camisa nick do MAZTHEUZ</h1>
-    <p> Esse é o Nick histórico do MAZTHEUZ o BRABO! </p>
-  </div>
+      <div class="produtoslocal" onclick="mostrarPopup('Camisa Nick do MAZTHEUZ', ' Esta é a camisa do MAZTHEUZ: 100R$', 'imagens/camisaspng/maz.png')">
+        <img src="imagens/camisaspng/maz.png" alt="">
+        <h1 class="tituloprodutos">Camisa nick do MAZTHEUZ</h1>
+        <p class="descprodutos">Esse é o Nick histórico do MAZTHEUZ o BRABO!</p>
+      </div>
 
-  <div class="produtoslocal">
-    <img src="imagens/camisaspng/sonic.png" alt="">
-    <h1>Camisa Sonic X Shadow Generations</h1>
-    <p>Esse jogo é muito bom compra a camisa dele ai! </p>
-  </div>
+      <div class="produtoslocal" onclick="mostrarPopup('Camisa Sonic X Shadow Generations', 'Essa é a camisa do jogo Sonic X Shadow Generations: 100R$', 'imagens/camisaspng/sonic.png')">
+        <img src="imagens/camisaspng/sonic.png" alt="">
+        <h1 class="tituloprodutos">Camisa Sonic X Shadow Generations</h1>
+        <p class="descprodutos">Esse jogo é muito bom compra a camisa dele ai!</p>
+      </div>
+    </div>
 
-</div>
+    <div class="coisinhas-content">
+      <div class="produtoslocal" onclick="mostrarPopup('Camisa ETEVALDO!', 'Essa é a camisa do brabo do Etevaldo lopes: 79,99R$', 'imagens/camisaspng/et.png')">
+        <img class="Imagem do produto" src="imagens/camisaspng/et.png" alt="">
+        <h1 class="tituloprodutos">Camisa ETEVALDO!</h1>
+        <p class="descprodutos">Essa camisa demonstra toda a gloria e cearencise de ETEVALDO LOPES!</p>
+      </div>
 
-<div  class="coisinhas-content">
-  <div class="produtoslocal">
-    <img src="imagens/camisaspng/et.png" alt="">
-    <h1>Camisa ETEVALDO!</h1>
-    <p>Essa camisa demonstra toda a gloria e cearencise de ETEVALDO LOPES!</p>
-  </div>
+      <div class="produtoslocal" onclick="mostrarPopup('Camisa ARABE!', 'Essa é a camisa arabe mano: 100R$', 'imagens/camisaspng/all.png')">
+        <img src="imagens/camisaspng/all.png" alt="">
+        <h1 class="tituloprodutos">Camisa ARABE!</h1>
+        <p class="descprodutos">Dizem q o MAZTHEUZ parece um arabe! mais não tem nada ave!</p>
+      </div>
 
-  <div class="produtoslocal">
-    <img src="imagens/camisaspng/all.png" alt="">
-    <h1>Camisa ARABE!</h1>
-    <p> Dizem q o MAZTHEUZ parece um arabe! mais não tem nada ave! </p>
-  </div>
-
-  <div class="produtoslocal">
-    <img src="./imagens/baldiação marques.png" alt="" style="width: 250px;">
-    <h1>Baldição Marques</h1>
-    <p>Guru Espritual pessoal,ele vai realizar todos os seus desejos.</p>
-  </div>
-
-</div>
+      <div class="produtoslocal" onclick="mostrarPopup('Baldição Marques', 'Ele dispensa apresentações: 2000R$.', 'imagens/baldiação marques.png')">
+        <img src="imagens/baldiação marques.png" alt="" style="width: 250px;">
+        <h1 class="tituloprodutos">Baldição Marques</h1>
+        <p class="descprodutos">O maior de todos ele sabe tudo ele é brabo!</p>
+      </div>
+    </div>
 
   </main>
 
-  <footer >
+  <footer>
     <main>
       <div>
         <section class="otrabarra2">
           <img src="imagens/sonicgif1.gif" alt="">
-
           <h1 class="textodebaixo">SE INSCREVA!</h1>
-          <P>Qualquer problema manda um pix que eu te ajudo!</P>
-
+          <p class="tituloprodutos">Qualquer problema manda um pix que eu te ajudo!</p>
         </section>
       </div>
       <div>
         <audio id="backgroundMusic" loop autoplay>
           <source src="Sonic The Hedgehog OST - Green Hill Zone.mp3" type="audio/mpeg">
-      </audio>
-      <button id="muteButton">🔊</button>
+        </audio>
+        <button id="muteButton">🔊</button>
       </div>
     </main>
   </footer>
+
   <img src="imagens/gameover.png" alt="" width="100%">
 
+  <!-- POPUP -->
+  <div id="overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.7); z-index:1000;"></div>
 
+  <div id="popup" style="
+  display:none;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background:rgb(0, 47, 175);
+  padding:20px;
+  border-radius:10px;
+  z-index:1001;
+  max-width:300px;
+  text-align:center;
+  color:#FF4500;
+  font-family: 'Luckiest Guy', cursive;
+">
+    <h2 id="popupTitulo" style="color: #ffd700;"></h2>
+    <img id="popupImagem" src="" alt="Imagem do produto" style="max-width: 100%; border-radius: 10px; margin: 10px 0;">
+    <p id="popupDescricao" style="color: #ffffff"></p>
+    <button onclick="fecharPopup()">Fechar</button>
+  </div>
+
+  <script>
+    function mostrarPopup(titulo, descricao, imagemSrc) {
+      document.getElementById('popupTitulo').textContent = titulo;
+      document.getElementById('popupDescricao').textContent = descricao;
+      document.getElementById('popupImagem').src = imagemSrc;
+      document.getElementById('popup').style.display = 'block';
+      document.getElementById('overlay').style.display = 'block';
+    }
+
+    function fecharPopup() {
+      document.getElementById('popup').style.display = 'none';
+      document.getElementById('overlay').style.display = 'none';
+    }
+  </script>
 
 </body>
-
-
 </html>

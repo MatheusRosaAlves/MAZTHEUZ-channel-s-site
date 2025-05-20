@@ -109,3 +109,25 @@ transition: all 0.6 ease;
 height: 250;
 width: 250;
 }
+
+.tituloprodutos {
+
+    color: #ffd700;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+
+}
+
+.descprodutos {
+    color: rgba(255, 255, 255, 0.925);
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+
+}
+
