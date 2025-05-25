@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+nav {
+  background-color: #004aad;
+  padding: 35px 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  position: relative; 
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: white;
+}
+
+.logo-container {
+  position: absolute;
+  right: 20px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo {
+  width: 90px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: gold;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 1px 1px 10px black;
+}
+
+form {
+  background-color: #004aad;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px gold;
+  text-align: left;
+}
+
+form label {
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+.otrabarra2 {
+  background-color: #004aad;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.textodebaixo,
+.textocontatos,
+.tituloprodutos {
+  color: gold;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 1px 1px 10px black;
+  font-size: 30px;
+}
+
+
+.form-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.sonic-lado {
+width: 400px;
+height: auto;
+
+}

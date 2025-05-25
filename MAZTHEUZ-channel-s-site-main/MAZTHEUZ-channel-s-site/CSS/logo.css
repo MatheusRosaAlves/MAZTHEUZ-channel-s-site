@@ -1,0 +1,311 @@
+/*estilização do body da pagina*/
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'poppins' 'Arial';
+    background-color: #000000;
+}
+/*estilização do menu*/
+nav {
+    background-color: #004aad;
+    padding: 35px 10px;
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 28;
+    justify-content: end;
+    align-items: center;
+}
+nav div a {
+    position: absolute;
+    top: 0px;
+    right: 30%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+/*estilizaçao da DIV do header*/
+.divHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li a {
+    color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+    width: 20%;
+    justify-content: center;
+}
+.banner {
+
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: aliceblue;
+}
+h2 {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+}
+
+main {
+    background-color: #004aad;
+}
+.sobre_nos {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+}
+.sobre_nos h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    width: unset;
+    margin-left: unset;
+}
+.imagemsobrenos {
+    width: 10%;
+    border-radius: 20px;
+    display: flex;
+}
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.videoegif {
+    display: flex;
+    gap: 10px;
+}
+
+.mapa {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+transition: all  0.6s ease;
+}
+
+.mapa:hover {
+height: 700;
+width: 650;
+
+}
+
+h1.textomapa {
+    margin-left: -40px;
+    margin-right: 50px;
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.localizacaocontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.titulovideo {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+.omlrvideo {
+    border-radius: 20px;
+    margin-bottom: 30px;
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+
+.imagemdocanal {
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+
+.imagemdocanal:hover {
+height: 300;
+width: 900;
+
+}
+
+
+.otrabarra {
+    width: 100%;
+    height: 30px;
+}
+
+.secaodovideo {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.otrabarra2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;   
+justify-content: center;
+}
+
+.fundo1 {
+    display: flex;
+    justify-content: left;
+    background-image: url("../imagens/fotodetras1.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fundo1::after {
+    content: '';
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    background-color: #0000003b;
+}
+.fundo2 {
+    display: flex;
+    justify-content: left;
+    background-image: url("../imagens/fotosdetras2.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fundo2::after {
+    content: '';
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    background-color: #0000003f;
+}
+.fundo2 div,
+.fundo2 h1,
+.fundo2 p {
+    z-index: 1;
+}
+.fundo3 {
+    display: flex;
+    justify-content: left;
+    background-image: url("../imagens/fotodetras3.JPEG") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fundo3::after {
+    content: '';
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    background-color: #0000003f;
+}
+.fundo3 div,
+.fundo3 h1,
+.fundo3 iframe {
+    z-index: 1;
+}
+
+.textoai {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 10px black;
+}
+.textoai2 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulodosvideos {
+
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+
+.videosnomes {
+
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+
+.textodebaixo {
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+
+.paragrafofinal {
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+}
+
+.giffooter {
+
+transition: all 0.6 ease;
+
+}
+.giffooter:hover {
+height: 250;
+width: 250;
+}
+

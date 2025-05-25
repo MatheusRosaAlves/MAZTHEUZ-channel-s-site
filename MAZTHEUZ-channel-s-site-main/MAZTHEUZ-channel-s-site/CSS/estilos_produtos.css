@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'poppins' 'Arial';
+    background-color: #000000;
+}
+
+nav {
+    background-color: #004aad;
+    padding: 35px 10px;
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 28;
+    justify-content: end;
+    align-items: center;
+}
+
+nav div a {
+    position: absolute;
+    top: 0px;
+    right: 30%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.divHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 20%;
+    justify-content: center;
+}
+
+
+.prodtexto {
+    margin-right: -40px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.inicio {
+    display: flex;
+    background-image: url("../imagens/s-l1200.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.coisinhas {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.coisinhas-content {
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.produtoslocal {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 58, 126);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    width: 25%;
+}
+
+.produtoslocal img {
+    width: 100%;
+}
+
+.textoprodutos {
+
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+
+}
+
+.giffooter {
+transition: all 0.6 ease;
+}
+
+.giffooter:hover {
+height: 250;
+width: 250;
+}
+
+.tituloprodutos {
+
+    color: #ffd700;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+
+}
+
+.descprodutos {
+    color: rgba(255, 255, 255, 0.925);
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-weight: bold;
+text-shadow: 1px 1px 10px black;
+
+}
+

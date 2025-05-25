@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>MAZTHEUZ - Contato</title>
+ <!-------------------------------------------------------------FONTES----------------------------------------------------------------------------------------------------->
+  <link rel="stylesheet" href="CSS/estilos_contatos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+  <!-------------------------------------------------------------CABEÇALHO E MENU---------------------------------------------------------------------------------------------------->
+ <head>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home |</a></li>
+      <li><a href="produtos.html">Produtos |</a></li>
+      <li><a href="contatos.html">Contatos</a></li>
+    </ul>
+    <div class="logo-container">
+      <a href="https://www.youtube.com/@maztheuz">
+        <img src="imagens/logonova.jpg" alt="Logo do canal" class="logo">
+      </a>
+    </div>
+  </nav>
+<!-------------------------------------------------------------QUESTIONARIO---------------------------------------------------------------------------------------------------->
+ <head>
+  <main>
+    <section class="contato">
+      <h1>CONTATOS</h1>
+      <p class="textocontatos">Sua sorte que eu não cobro pra atender vocês... preenche o formulário aí!</p>
+
+      <div class="form-container">
+        <img src="C:\Users\Computador\Desktop\programação\MAZTHEUZ-channel-s-site-main\MAZTHEUZ-channel-s-site-main\MAZTHEUZ-channel-s-site\imagens\sonicescuro.jpg" alt="Sonic Esquerda" class="sonic-lado">
+
+        <form id="frmContato">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" cols="30" rows="5" required></textarea>
+
+            <label>Como prefere o nosso contato?</label>
+            <input type="radio" name="contato" value="email"> E-mail
+            <input type="radio" name="contato" value="telefone"> Telefone
+            <input type="radio" name="contato" value="zap"> ZAP
+
+            <label for="motivo">Qual o motivo do seu contato?</label>
+            <select id="motivo" name="motivo">
+              <option>Selecione</option>
+              <option>Dúvida</option>
+              <option>Sugestão</option>
+              <option>Elogio</option>
+              <option>Reclamação</option>
+            </select>
+
+            <label>
+              <input type="checkbox" name="novidades"> Gostaria de receber nossas novidades por e-mail?
+            </label>
+
+            <input type="submit" value="Enviar">
+          </fieldset>
+        </form>
+
+        <img src="imagens/sonicescuro.jpg" alt="Sonic Direita" class="sonic-lado">
+      </div>
+    </section>
+  </main>
+<!-------------------------------------------------------------FOOTER--------------------------------------------------------------------------------------------------->
+ <head>
+  <footer>
+    <section class="otrabarra2">
+      <img src="imagens/sonicgif1.gif" alt="">
+      <h1 class="textodebaixo">SE INSCREVA!</h1>
+      <p class="tituloprodutos">Qualquer problema manda um pix que eu te ajudo!</p>
+    </section>
+  </footer>
+  <img src="imagens/gameover.png" alt="" width="100%">
+</body>
+</html>
